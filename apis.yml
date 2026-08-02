@@ -1,7 +1,24 @@
 aid: zgbiotech
-name: zgbiotech
-description: zgbiotech is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zgbiotech.png
+name: Zencore Biologics
+description: Zencore Biologics (zgbiotech.com) is a one-stop biologics CDMO (contract
+  development and manufacturing organization) technology service platform serving pharmaceutical
+  clients globally. Its services span large-molecule biologics development and production,
+  antibody-drug conjugates (ADC), cell culture media, analytical and quality testing,
+  and regulatory registration support. Surfaced as a portfolio company of the venture
+  firm qiming; this profile is a corporate/biotech entity with no public developer
+  API surface (no OpenAPI, well-known, or event/webhook interfaces were found).
 url: https://raw.githubusercontent.com/api-evangelist/zgbiotech/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Biotechnology
+- CDMO
+- Biologics
+- Pharmaceuticals
+- Contract Manufacturing
+- ADC
+- Life Sciences
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +45,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/zgbiotech-domain-security.yml
 - type: Website
   url: https://zgbiotech.com
+- type: Blog
+  url: https://zgbiotech.com/news/zgxw/index.html
+- type: TermsOfService
+  url: https://zgbiotech.com/policy/sytk/index.html
+- type: PrivacyPolicy
+  url: https://zgbiotech.com/policy/yszc/index.html
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
